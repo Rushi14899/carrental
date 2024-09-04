@@ -1,0 +1,348 @@
+/* General Body Style */
+body {
+  background-color: #e0e5ec; /* Light background color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+  margin: 0;
+}
+
+/* Neumorphic Navbar */
+.neumorphic-navbar {
+  background: #e0e5ec;
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s ease;
+}
+
+.neumorphic-navbar:hover {
+  box-shadow: 2px 2px 5px #babecc, -2px -2px 5px #ffffff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.navbar-brand:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.nav-link {
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-item .btn {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #e0e5ec;
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.nav-item .btn:hover {
+  box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #ffffff;
+  background-color: #f0f0f0;
+}
+
+/* Neumorphic Input */
+.neumorphic-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #e0e5ec;
+  box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #ffffff;
+  outline: none;
+  transition: all 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.neumorphic-input:focus {
+  box-shadow: inset 3px 3px 6px #babecc, inset -3px -3px 6px #ffffff;
+}
+
+/* Neumorphic Button */
+.neumorphic-btn {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #e0e5ec;
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.neumorphic-btn:hover {
+  box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #ffffff;
+}
+
+/* Neumorphic Card */
+.neumorphic-card {
+  border-radius: 15px;
+  padding: 20px;
+  background: #e0e5ec;
+  box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+  transition: all 0.3s ease;
+  height: 24rem;
+  width: 100%;
+}
+
+.neumorphic-card:hover {
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+}
+
+.card-content {
+  text-align: center;
+}
+
+/* Headings and Text */
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Image style inside Card */
+.card-image {
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px #babecc, -3px -3px 8px #ffffff;
+  margin-bottom: 15px;
+  height: 10rem;
+  width: 100%;
+}
+
+/* Neumorphic Admin Sidebar */
+.admin-sidebar {
+  background: #e0e5ec;
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  height: 100vh;
+  transition: box-shadow 0.2s ease;
+}
+
+.admin-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-sidebar li {
+  margin-bottom: 15px;
+}
+
+.admin-sidebar button,
+.admin-sidebar a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #e0e5ec;
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  color: #333;
+  text-decoration: none;
+}
+
+.admin-sidebar button:hover,
+.admin-sidebar a:hover {
+  box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #ffffff;
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
+/* Admin Panel Content */
+.admin-panel {
+  padding: 20px;
+  background: #e0e5ec;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #ffffff;
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Table Style */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-collapse: collapse;
+  word-wrap: break-word; /* Ensure text wraps inside cells */
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table td {
+  font-size: 0.875rem; /* Smaller text for compact fit */
+  word-break: break-word;
+}
+
+.table th {
+  font-size: 0.875rem;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+  .table th,
+  .table td {
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+
+  .table th,
+  .table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .table thead {
+    display: none; /* Hide table headers on small screens */
+  }
+
+  .table tbody tr {
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px #babecc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .table tbody tr td {
+    text-align: right;
+    position: relative;
+    padding-left: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .table tbody tr td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+/* From Uiverse.io by adamgiebl */ 
+.cssbuttons-io-button {
+  background: #a370f0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+.dflex{
+  display: flex;
+  justify-content: center;
+}
