@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/carrental/static/css/main.be4ca435.css",
+    "main.js": "/carrental/static/js/main.36ee6b6f.js",
+    "static/js/453.d49825e2.chunk.js": "/carrental/static/js/453.d49825e2.chunk.js",
+    "static/media/swift_desire.jpg": "/carrental/static/media/swift_desire.dd12ed667e171a3eb386.jpg",
+    "static/media/rm.png": "/carrental/static/media/rm.d052a55a9aff3509e90f.png",
+    "static/media/ertiga.jpg": "/carrental/static/media/ertiga.30935f1a31bf9784a2cc.jpg",
+    "static/media/swift.webp": "/carrental/static/media/swift.418c4fb5feaf8991313e.webp",
+    "static/media/inova.webp": "/carrental/static/media/inova.e31ac3ae78b2a65f9511.webp",
+    "static/media/verna.webp": "/carrental/static/media/verna.ddb898ee3304f0a7bbb6.webp",
+    "static/media/harrier.avif": "/carrental/static/media/harrier.084fa6e9cf2e996b8639.avif",
+    "static/media/tigor.avif": "/carrental/static/media/tigor.d14fe59e9e28607f7b72.avif",
+    "index.html": "/carrental/index.html",
+    "main.be4ca435.css.map": "/carrental/static/css/main.be4ca435.css.map",
+    "main.36ee6b6f.js.map": "/carrental/static/js/main.36ee6b6f.js.map",
+    "453.d49825e2.chunk.js.map": "/carrental/static/js/453.d49825e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be4ca435.css",
+    "static/js/main.36ee6b6f.js"
+  ]
+}
